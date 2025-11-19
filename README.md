@@ -5,8 +5,7 @@
 Структура:
 - index.html — Главная
 - about.html — О проекте
-- services.html — Услуги
-- contact.html — Контакты
+- menu.html — Меню
 - css/style.css — Стили
 - План.docx — План выполнения работы + команды Git
 
