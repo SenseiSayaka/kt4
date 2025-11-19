@@ -1,0 +1,16 @@
+Команды, которые были выполнены:
+
+git init
+git config --global user.name "SenseiSayaka"
+git config --global user.email "marat3112965@mail.ru"
+git add .
+git commit -m "Initial commit: multi-page demo site"
+git checkout -b new-design
+# (внесены изменения в css)
+git add css/style.css
+git commit -m "feat: updated CSS in new-design branch"
+git checkout main
+git merge --no-ff new-design -m "merge: new-design into main"
+# Создать репозиторий на GitHub и затем:
+git remote add origin https://github.com/SenseiSayaka/kt4.git
+git push -u origin main

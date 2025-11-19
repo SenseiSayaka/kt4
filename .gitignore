@@ -1,0 +1,6 @@
+# Node / editor / system ignores
+.DS_Store
+Thumbs.db
+__pycache__/
+.vscode/
+.env
